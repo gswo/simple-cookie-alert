@@ -1,0 +1,63 @@
+<?php
+/** @var \Gswo\SimpleCookieAlert\ViewModel\ModuleConfig $moduleConfig */
+$moduleConfig = $block->getModuleConfig();
+?>
+<style type="text/css">
+    .gswo-cookies-window .content .text a {
+        color: <?= $moduleConfig->getTextColor() ?>;
+    }
+</style>
+<div class="gswo-cookies-window <?= $moduleConfig->getTemplate() ?>" style="
+    display: none;
+    background-color: <?= $moduleConfig->getBackgroundColor() ?>;
+    border-color: <?= $moduleConfig->getBorderColor() ?>;
+    color: <?= $moduleConfig->getTextColor() ?>
+">
+    <span class="close"></span>
+    <div class="content">
+        <div class="text"><?= $moduleConfig->getContent() ?></div>
+        <button class="dismiss" type="button" data-role="action" style="
+            background-color: <?= $moduleConfig->getDismissButtonBackgroundColor() ?>;
+            border-color: <?= $moduleConfig->getDismissButtonBorderColor() ?>;
+            color: <?= $moduleConfig->getDismissButtonTextColor() ?>
+        "><span><?= $moduleConfig->getDismissButtonText() ?></span></button>
+    </div>
+</div>
+
+<script>
+    require(['jquery'], function($){
+
+        function cookiesAccepted() {
+            let accepted = localStorage.getItem('gswo-cookies-accepted');
+            return !!(accepted && accepted === '1');
+        }
+
+        function closeWindow() {
+            $('.gswo-cookies-window').fadeOut();
+        }
+
+        function showWindow() {
+            $('.gswo-cookies-window').fadeIn();
+        }
+
+        if (cookiesAccepted()) {
+            return;
+        }
+
+        $(document).ready(function() {
+            showWindow();
+            let cookiesWindow = $('.gswo-cookies-window');
+            let accept = cookiesWindow.find('.dismiss');
+            let close = cookiesWindow.find('.close');
+
+            close.click(function() {
+                closeWindow();
+            });
+
+            accept.click(function (){
+                localStorage.setItem('gswo-cookies-accepted', '1');
+                closeWindow();
+            });
+        });
+    });
+</script>

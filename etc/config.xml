@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <gswo_simple_cookie_alert>
+            <general>
+                <enable>0</enable>
+                <content><![CDATA[<p>We use cookies to improve your experience on our website. Visit our <a href="/privacy-policy" target="_blank">Privacy Policy</a> to learn more. By continuing to use our site, you agree to our Privacy Policy and to our use of cookies.</p>]]></content>
+                <template>full_width_bottom</template>
+                <text_color>#363636</text_color>
+                <background_color>#f0f0f0</background_color>
+                <border_color>#4190b1</border_color>
+            </general>
+
+            <dismiss_button>
+                <enable>1</enable>
+                <text>Ok</text>
+                <text_color>#ffffff</text_color>
+                <background_color>#26a9e0</background_color>
+                <border_color>#26a9e0</border_color>
+            </dismiss_button>
+
+        </gswo_simple_cookie_alert>
+    </default>
+</config>

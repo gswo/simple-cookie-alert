@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceContainer name="before.body.end">
+        <block name="gswo.simple.cookie.alert"
+               class="Magento\Framework\View\Element\Template"
+               template="Gswo_SimpleCookieAlert::alert.phtml"
+               ifconfig="gswo_simple_cookie_alert/general/enable"
+        >
+            <arguments>
+                <argument name="module_config" xsi:type="object">Gswo\SimpleCookieAlert\ViewModel\ModuleConfig</argument>
+            </arguments>
+        </block>
+    </referenceContainer>
+</page>

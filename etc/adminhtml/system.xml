@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="gswo" translate="label" sortOrder="1">
+            <label>Gswo</label>
+        </tab>
+        <section id="gswo_simple_cookie_alert" translate="label" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Simple Cookie Alert</label>
+            <tab>gswo</tab>
+            <resource>Mageplaza_HelloWorld::helloworld_config</resource>
+            <group id="general" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Configuration</label>
+                <field id="enable" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Module Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="content" translate="label" type="editor" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Content</label>
+                    <frontend_model>Gswo\SimpleCookieAlert\Block\Adminhtml\System\Config\Editor</frontend_model>
+                </field>
+                <field id="template" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Template</label>
+                    <source_model>Gswo\SimpleCookieAlert\Model\Config\Source\Template</source_model>
+                </field>
+                <field id="text_color" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Text Color</label>
+                    <frontend_model>Gswo\SimpleCookieAlert\Block\Adminhtml\System\Config\Color</frontend_model>
+                </field>
+                <field id="background_color" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Background Color</label>
+                    <frontend_model>Gswo\SimpleCookieAlert\Block\Adminhtml\System\Config\Color</frontend_model>
+                </field>
+                <field id="border_color" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Border Color</label>
+                    <frontend_model>Gswo\SimpleCookieAlert\Block\Adminhtml\System\Config\Color</frontend_model>
+                </field>
+            </group>
+
+            <group id="dismiss_button" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Dismiss Button</label>
+                <field id="text" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Text</label>
+                </field>
+                <field id="text_color" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Text Color</label>
+                    <frontend_model>Gswo\SimpleCookieAlert\Block\Adminhtml\System\Config\Color</frontend_model>
+                </field>
+                <field id="background_color" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Background Color</label>
+                    <frontend_model>Gswo\SimpleCookieAlert\Block\Adminhtml\System\Config\Color</frontend_model>
+                </field>
+                <field id="border_color" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Border Color</label>
+                    <frontend_model>Gswo\SimpleCookieAlert\Block\Adminhtml\System\Config\Color</frontend_model>
+                </field>
+            </group>
+
+        </section>
+    </system>
+</config>

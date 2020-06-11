@@ -1,0 +1,23 @@
+{
+    "name": "gswo/module-simple-cookie-alert",
+    "description": "N/A",
+    "require": {
+        "php": "~7.1.*|~7.2.*|~7.3.*",
+        "magento/framework": "100.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gswo\\SimpleCookieAlert\\": ""
+        }
+    }
+}
+
