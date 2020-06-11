@@ -1,4 +1,4 @@
-# Magento 2 Gswo Simple Cookie Alert
+# Magento 2 Gswo Simple Cookie Notice
 Simple Cookie Alert extension for Magento 2
 
 # Installation & Configuration
