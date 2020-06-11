@@ -1,5 +1,5 @@
 {
-    "name": "gswo/module-simple-cookie-alert",
+    "name": "gswo/simple-cookie-alert",
     "description": "N/A",
     "require": {
         "php": ">=7.1.3",
