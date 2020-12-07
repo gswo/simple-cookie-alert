@@ -18,7 +18,6 @@
                 <background_color>#26a9e0</background_color>
                 <border_color>#26a9e0</border_color>
             </dismiss_button>
-
         </gswo_simple_cookie_alert>
     </default>
 </config>

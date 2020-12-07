@@ -8,7 +8,7 @@
             <class>separator-top</class>
             <label>Simple Cookie Alert</label>
             <tab>gswo</tab>
-            <resource>Mageplaza_HelloWorld::helloworld_config</resource>
+            <resource>Gswo_SimpleCookieAlert::manage_simple_cookie_alert</resource>
             <group id="general" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General Configuration</label>
                 <field id="enable" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1">
