@@ -36,30 +36,8 @@ Simple Cookie Alert extension for Magento 2
     
 
 
-# Screenshots
-
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/admin_config.jpg)
-
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/top.jpg)
-
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/bottom.jpg)
-
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/center.jpg)
-
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/bottom_left.jpg)
-
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/bottom_right.jpg)
-
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/top_left.jpg)
-
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/top_right.jpg)
-
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/top_mobile.jpg) 
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/bottom_mobile.jpg) 
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/center_mobile.jpg) 
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/bottom_half_mobile.jpg) 
-![Simple cookie alert admin](https://magento.grzesiowo.pl/upload/images/modules/simple-cookie-alert/top_half_mobile.jpg) 
-
+# Demos
+http://gswo.docker/magento-2-simple-cookie-alert
 
 
 
