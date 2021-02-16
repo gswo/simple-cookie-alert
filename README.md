@@ -37,7 +37,7 @@ Simple Cookie Alert extension for Magento 2
 
 
 # Demos
-http://gswo.docker/magento-2-simple-cookie-alert
+https://gswo.shop/magento-2-simple-cookie-alert
 
 
 
